@@ -59,7 +59,7 @@
 # words = sentence.split()
 # print(f"Total words: {len(words)}")
 
-#6. Prime Number Checker:
+# # 6. Prime Number Checker:
 # num =int(input("Enter a number: "))
 # if num > 1:
 #     for i in range(2,num):
@@ -71,31 +71,31 @@
 # else:
 #     print("must be grater than 1")
 
-# 7.Swapping:
+# # 7.Swapping:
 # a=int(input("Enter first number: "))
 # b=int(input("Enter second number: "))
 # print("Before swapping: a =", a, ", b =", b)
 # a,b=b,a
 # print("After swapping: a =", a, ", b =", b)
 
-# 8. Fibonacci Sequence:
+# # 8. Fibonacci Sequence:
 # n=int(input("Enter the number: "))
 # a,b=0,1
 # for i in range(n):
 #     print(a, end=' ')
 #     a, b = b, a + b
 
-# 9.odd or even:
+# # 9.odd or even:
 # num =int(input("Enter a number: "))
 # if num % 2==0:
 #     print(f"{num} is a even number")
 # else:
 #     print(f"{num} is a odd number")
 
-# 10.reverse a string:
-text=input("Enter string:")
-reversed_text =text[::-1]
-print("Reversed string:", reversed_text)
+# # 10.reverse a string:
+# text=input("Enter string:")
+# reversed_text =text[::-1]
+# print("Reversed string:", reversed_text)
 
 
 
