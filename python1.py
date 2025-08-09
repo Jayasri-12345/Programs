@@ -145,7 +145,7 @@
 # area = area_of_circle(radius)  
 # print(f"Area of the circle: {area:.2f}")  # Display area rounded to 2 decimal places 
 
-# 11.Word frequency counter:
+# 16.Word frequency counter:
 # text=input("enter text:") .lower()
 # words=text.split()
 # word_count={}
@@ -153,11 +153,11 @@
 #     word_count[word] = word_count.get(word, 0) + 1
 # print("Word count:", word_count)
 
-# 12.Average of list of numbers:
+# 17.Average of list of numbers:
 # nums =list(map(float,input("enter numbers separated by space:").split()))
 # print("average:",sum(nums)/len(nums))
 
-# 13.Armstrong Number Checker:
+# 18.Armstrong Number Checker:
 # num = int(input("Enter a number: "))
 # order = len(str(num))  # Number of digits
 # total = sum(int(digit) ** order for digit in str(num))
@@ -175,16 +175,21 @@
 #     if num == total:
 #         print(num)
 
-# 14.sum of digits:
-def sum_of_digits(n):
-    total = 0
-    while n > 0:
-        total += n % 10
-        n //= 10
-    return total
-n = int(input("Enter a number: "))
-result = sum_of_digits(n)   
-print(f"Sum of digits: {result}")
+# 19.sum of digits:
+# def sum_of_digits(n):
+#     total = 0
+#     while n > 0:
+#         total += n % 10
+#         n //= 10
+#     return total
+# n = int(input("Enter a number: "))
+# result = sum_of_digits(n)   
+# print(f"Sum of digits: {result}")
+
+# 20.
+print("Welcome to the Python Program🎉")
+
+
 
 
 
