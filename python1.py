@@ -99,21 +99,21 @@
 
 # print("Thank you")
 
-# 11.Multiplication Table:
+# # 11.Multiplication Table:
 # n=int(input("Enter a number: "))
 # # def multiplication_table(n):
 # for i in range(1, 11):
 #     print(f"{n} x {i} = {n * i}")
 # # multiplication_table(n)
 
-# 12.Leap year:
+# # 12.Leap year:
 # year = int(input("Enter a year: "))
 # if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
 #     print(f"{year} is a leap year.")
 # else:
 #     print(f"{year} is not a leap year.")
 
-# 13.To do List:
+# # 13.To do List:
 # tasks = []
 # while True:
 #     choice = input("1.Add 2.View 3.Exit: ")
@@ -128,7 +128,7 @@
 #     else:
 #         print("Invalid choice")
 
-# 14.simple interest:
+# # 14.simple interest:
 # def simple_interest(principal, rate, time): 
 #     return (principal * rate * time) / 100
 # principal = float(input("Enter principal amount: "))
@@ -137,13 +137,54 @@
 # interest = simple_interest(principal, rate, time)
 # print(f"Simple Interest: {interest}")
 
-# 15.Area of Circle:
-import math
-def area_of_circle(radius):
-    return math.pi * radius ** 2
-radius = float(input("Enter the radius of the circle: "))
-area = area_of_circle(radius)  
-print(f"Area of the circle: {area:.2f}")  # Display area rounded to 2 decimal places 
+# # 15.Area of Circle:
+# import math
+# def area_of_circle(radius):
+#     return math.pi * radius ** 2
+# radius = float(input("Enter the radius of the circle: "))
+# area = area_of_circle(radius)  
+# print(f"Area of the circle: {area:.2f}")  # Display area rounded to 2 decimal places 
+
+# 11.Word frequency counter:
+# text=input("enter text:") .lower()
+# words=text.split()
+# word_count={}
+# for word in words:
+#     word_count[word] = word_count.get(word, 0) + 1
+# print("Word count:", word_count)
+
+# 12.Average of list of numbers:
+# nums =list(map(float,input("enter numbers separated by space:").split()))
+# print("average:",sum(nums)/len(nums))
+
+# 13.Armstrong Number Checker:
+# num = int(input("Enter a number: "))
+# order = len(str(num))  # Number of digits
+# total = sum(int(digit) ** order for digit in str(num))
+
+# if num == total:
+#     print("Armstrong number")
+# else:
+#     print("Not an Armstrong number")
+
+# start=int(input("Enter start of range: "))
+# end=int(input("Enter end of range: "))
+# for num in range(start, end + 1):
+#     order = len(str(num))  # Number of digits
+#     total = sum(int(digit) ** order for digit in str(num))
+#     if num == total:
+#         print(num)
+
+# 14.sum of digits:
+def sum_of_digits(n):
+    total = 0
+    while n > 0:
+        total += n % 10
+        n //= 10
+    return total
+n = int(input("Enter a number: "))
+result = sum_of_digits(n)   
+print(f"Sum of digits: {result}")
 
 
 
