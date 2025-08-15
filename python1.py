@@ -186,8 +186,125 @@
 # result = sum_of_digits(n)   
 # print(f"Sum of digits: {result}")
 
-# 20.
-print("Welcome to the Python Program🎉")
+# 20.BMI Calculator:
+
+# name=input("Enter your name: ")
+# print(f'Your name is{name}')
+# name=input("Enter your name: ")
+# weight = float(input("Enter your weight in kg: "))
+# height = float(input("Enter your height in meters: "))
+# bmi = weight / (height ** 2)
+# if bmi < 18.5:
+#     print(f"{name}, you are underweight😑.")
+# elif 18.5 <= bmi < 24.9:
+#     print(f"{name}, you have a normal weight🎉.")
+# else:
+#     print(f"{name}, you are overweight⚠️.")
+
+# 21.Multiplication Table:
+# num=input("Enter a number: ")
+# for i in range(1, 11):
+#     print(f"{num} x {i} = {int(num) * i}")
+
+# 22.Quiz Application:
+
+# question1 = input("what is capital of India?: ")
+# if question1.lower() == "delhi":
+#     print("Correct! 🎉")
+# else:
+#     print("Incorrect! The correct answer is Delhi. ❌")
+# question2 = input("What is the largest planet in our solar system?: ")
+# if question2.lower() == "jupiter":
+#     print("Correct! 🎉" )
+# else:
+#     print("Incorrect! The correct answer is Jupiter. ❌")
+# question3 = input("What is the chemical symbol for water?: ")
+# if question3.lower() == "h2o":
+#     print("Correct! 🎉")
+# else:
+#     print("Incorrect! The correct answer is H2O. ❌")
+# score=0
+# if question1.lower() == "delhi":
+#     score += 1
+# if question2.lower() == "jupiter":
+#     score += 1
+# if question3.lower() == "h2o":
+#     score += 1
+# print(f"Your total score is: {score}/3")
+# print("Thank you for participating in the quiz! 🎓")
+
+# 23.Rock Paper Scissors Game:
+# import random
+# def rock_paper_scissors():
+#     choices = ['rock', 'paper', 'scissors']
+#     computer_choice = random.choice(choices)
+#     user_choice = input("Enter rock, paper, or scissors: ").lower()
+
+#     if user_choice not in choices:
+#         print("Invalid choice! Please try again.")
+#         return
+
+#     print(f"Computer chose: {computer_choice}")
+    
+#     if user_choice == computer_choice:
+#         print("It's a tie!")
+#     elif (user_choice == 'rock' and computer_choice == 'scissors') or \
+#          (user_choice == 'paper' and computer_choice == 'rock') or \
+#          (user_choice == 'scissors' and computer_choice == 'paper'):
+#         print("You win! 🎉")
+#     else:
+#         print("You lose! 😢")
+
+# import random
+# choices = ['rock', 'paper', 'scissors']
+# computer_choice = random.choice(choices)
+# user_choice = input("Enter rock, paper, or scissors: ").lower()
+# if user_choice not in choices:
+#     print("Invalid choice! Please try again.")
+# else:
+#     print(f"Computer chose: {computer_choice}")
+#     if user_choice == computer_choice:
+#         print("It's a tie!")
+#     elif (user_choice == 'rock' and computer_choice == 'scissors') or \
+#          (user_choice == 'paper' and computer_choice == 'rock') or \
+#          (user_choice == 'scissors' and computer_choice == 'paper'):
+#         print("You win! 🎉")
+#     else:
+#         print("You lose! 😢")
+
+
+# # 24.To-Do List Application:
+# def to_do_list():
+#     tasks = []
+#     while True:
+#         choice = input("1.Add 2.View 3.Exit: ")
+#         if choice == '1':
+#             task = input("Enter task: ")
+#             tasks.append(task)
+#             print(f"Task '{task}' added.")
+#         elif choice == '2':
+#             print("Tasks:")
+#             for i, task in enumerate(tasks, 1):
+#                 print(f"{i}. {task}")
+#         elif choice == '3':
+#             print("Exiting the to-do list.")
+#             break
+#         else:
+#             print("Invalid choice. Please try again.")
+# to_do_list()
+
+x = [1, 2, 3]
+print(x * 2)
+
+
+
+
+
+
+
+
+    
+
 
 
 
